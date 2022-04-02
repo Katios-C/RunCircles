@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9590153F27F8B395002BBF23 /* RunCircles WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9590153E27F8B395002BBF23 /* RunCircles WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9590154427F8B397002BBF23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9590154327F8B397002BBF23 /* Assets.xcassets */; };
+		9590154A27F8B397002BBF23 /* RunCircles WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9590154927F8B397002BBF23 /* RunCircles WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9590154F27F8B397002BBF23 /* RunCirclesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9590154E27F8B397002BBF23 /* RunCirclesApp.swift */; };
+		9590155127F8B397002BBF23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9590155027F8B397002BBF23 /* ContentView.swift */; };
+		9590155327F8B397002BBF23 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9590155227F8B397002BBF23 /* NotificationController.swift */; };
+		9590155527F8B397002BBF23 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9590155427F8B397002BBF23 /* NotificationView.swift */; };
+		9590155727F8B397002BBF23 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9590155627F8B397002BBF23 /* ComplicationController.swift */; };
+		9590155927F8B397002BBF23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9590155827F8B397002BBF23 /* Assets.xcassets */; };
+		9590155C27F8B397002BBF23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9590155B27F8B397002BBF23 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9590154027F8B395002BBF23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9590153427F8B395002BBF23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9590153D27F8B395002BBF23;
+			remoteInfo = "RunCircles WatchKit App";
+		};
+		9590154B27F8B397002BBF23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9590153427F8B395002BBF23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9590154827F8B397002BBF23;
+			remoteInfo = "RunCircles WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9590156427F8B397002BBF23 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9590154A27F8B397002BBF23 /* RunCircles WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9590156827F8B397002BBF23 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				9590153F27F8B395002BBF23 /* RunCircles WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9590153A27F8B395002BBF23 /* RunCircles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunCircles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9590153E27F8B395002BBF23 /* RunCircles WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RunCircles WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9590154327F8B397002BBF23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9590154927F8B397002BBF23 /* RunCircles WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "RunCircles WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9590154E27F8B397002BBF23 /* RunCirclesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunCirclesApp.swift; sourceTree = "<group>"; };
+		9590155027F8B397002BBF23 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9590155227F8B397002BBF23 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		9590155427F8B397002BBF23 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		9590155627F8B397002BBF23 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		9590155827F8B397002BBF23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9590155B27F8B397002BBF23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9590155D27F8B397002BBF23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9590155E27F8B397002BBF23 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9590154627F8B397002BBF23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9590153327F8B395002BBF23 = {
+			isa = PBXGroup;
+			children = (
+				9590154227F8B395002BBF23 /* RunCircles WatchKit App */,
+				9590154D27F8B397002BBF23 /* RunCircles WatchKit Extension */,
+				9590153B27F8B395002BBF23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9590153B27F8B395002BBF23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9590153A27F8B395002BBF23 /* RunCircles.app */,
+				9590153E27F8B395002BBF23 /* RunCircles WatchKit App.app */,
+				9590154927F8B397002BBF23 /* RunCircles WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9590154227F8B395002BBF23 /* RunCircles WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				9590154327F8B397002BBF23 /* Assets.xcassets */,
+			);
+			path = "RunCircles WatchKit App";
+			sourceTree = "<group>";
+		};
+		9590154D27F8B397002BBF23 /* RunCircles WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9590154E27F8B397002BBF23 /* RunCirclesApp.swift */,
+				9590155027F8B397002BBF23 /* ContentView.swift */,
+				9590155227F8B397002BBF23 /* NotificationController.swift */,
+				9590155427F8B397002BBF23 /* NotificationView.swift */,
+				9590155627F8B397002BBF23 /* ComplicationController.swift */,
+				9590155827F8B397002BBF23 /* Assets.xcassets */,
+				9590155D27F8B397002BBF23 /* Info.plist */,
+				9590155E27F8B397002BBF23 /* PushNotificationPayload.apns */,
+				9590155A27F8B397002BBF23 /* Preview Content */,
+			);
+			path = "RunCircles WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		9590155A27F8B397002BBF23 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9590155B27F8B397002BBF23 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9590153927F8B395002BBF23 /* RunCircles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9590156927F8B397002BBF23 /* Build configuration list for PBXNativeTarget "RunCircles" */;
+			buildPhases = (
+				9590153827F8B395002BBF23 /* Resources */,
+				9590156827F8B397002BBF23 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9590154127F8B395002BBF23 /* PBXTargetDependency */,
+			);
+			name = RunCircles;
+			productName = RunCircles;
+			productReference = 9590153A27F8B395002BBF23 /* RunCircles.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		9590153D27F8B395002BBF23 /* RunCircles WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9590156527F8B397002BBF23 /* Build configuration list for PBXNativeTarget "RunCircles WatchKit App" */;
+			buildPhases = (
+				9590153C27F8B395002BBF23 /* Resources */,
+				9590156427F8B397002BBF23 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9590154C27F8B397002BBF23 /* PBXTargetDependency */,
+			);
+			name = "RunCircles WatchKit App";
+			productName = "RunCircles WatchKit App";
+			productReference = 9590153E27F8B395002BBF23 /* RunCircles WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		9590154827F8B397002BBF23 /* RunCircles WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9590156127F8B397002BBF23 /* Build configuration list for PBXNativeTarget "RunCircles WatchKit Extension" */;
+			buildPhases = (
+				9590154527F8B397002BBF23 /* Sources */,
+				9590154627F8B397002BBF23 /* Frameworks */,
+				9590154727F8B397002BBF23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RunCircles WatchKit Extension";
+			productName = "RunCircles WatchKit Extension";
+			productReference = 9590154927F8B397002BBF23 /* RunCircles WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9590153427F8B395002BBF23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					9590153927F8B395002BBF23 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					9590153D27F8B395002BBF23 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					9590154827F8B397002BBF23 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 9590153727F8B395002BBF23 /* Build configuration list for PBXProject "RunCircles" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9590153327F8B395002BBF23;
+			productRefGroup = 9590153B27F8B395002BBF23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9590153927F8B395002BBF23 /* RunCircles */,
+				9590153D27F8B395002BBF23 /* RunCircles WatchKit App */,
+				9590154827F8B397002BBF23 /* RunCircles WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9590153827F8B395002BBF23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9590153C27F8B395002BBF23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9590154427F8B397002BBF23 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9590154727F8B397002BBF23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9590155C27F8B397002BBF23 /* Preview Assets.xcassets in Resources */,
+				9590155927F8B397002BBF23 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9590154527F8B397002BBF23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9590155327F8B397002BBF23 /* NotificationController.swift in Sources */,
+				9590155127F8B397002BBF23 /* ContentView.swift in Sources */,
+				9590155727F8B397002BBF23 /* ComplicationController.swift in Sources */,
+				9590154F27F8B397002BBF23 /* RunCirclesApp.swift in Sources */,
+				9590155527F8B397002BBF23 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9590154127F8B395002BBF23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9590153D27F8B395002BBF23 /* RunCircles WatchKit App */;
+			targetProxy = 9590154027F8B395002BBF23 /* PBXContainerItemProxy */;
+		};
+		9590154C27F8B397002BBF23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9590154827F8B397002BBF23 /* RunCircles WatchKit Extension */;
+			targetProxy = 9590154B27F8B397002BBF23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9590155F27F8B397002BBF23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9590156027F8B397002BBF23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9590156227F8B397002BBF23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RunCircles WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = HRA638G7C3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RunCircles WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "RunCircles WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ISSART.RunCircles.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		9590156327F8B397002BBF23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RunCircles WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = HRA638G7C3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RunCircles WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "RunCircles WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ISSART.RunCircles.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		9590156627F8B397002BBF23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HRA638G7C3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = RunCircles_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "RunCircles WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ISSART.RunCircles.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		9590156727F8B397002BBF23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HRA638G7C3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = RunCircles_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "RunCircles WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ISSART.RunCircles.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		9590156A27F8B397002BBF23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HRA638G7C3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ISSART.RunCircles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9590156B27F8B397002BBF23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HRA638G7C3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ISSART.RunCircles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9590153727F8B395002BBF23 /* Build configuration list for PBXProject "RunCircles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9590155F27F8B397002BBF23 /* Debug */,
+				9590156027F8B397002BBF23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9590156127F8B397002BBF23 /* Build configuration list for PBXNativeTarget "RunCircles WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9590156227F8B397002BBF23 /* Debug */,
+				9590156327F8B397002BBF23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9590156527F8B397002BBF23 /* Build configuration list for PBXNativeTarget "RunCircles WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9590156627F8B397002BBF23 /* Debug */,
+				9590156727F8B397002BBF23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9590156927F8B397002BBF23 /* Build configuration list for PBXNativeTarget "RunCircles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9590156A27F8B397002BBF23 /* Debug */,
+				9590156B27F8B397002BBF23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9590153427F8B395002BBF23 /* Project object */;
+}
