@@ -1,9 +1,4 @@
-//
-//  RunCirclesApp.swift
-//  RunCircles WatchKit Extension
-//
-//  Created by Екатерина Чернова on 02.04.2022.
-//
+
 
 import SwiftUI
 

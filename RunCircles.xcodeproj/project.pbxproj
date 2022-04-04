@@ -17,6 +17,11 @@
 		9590155727F8B397002BBF23 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9590155627F8B397002BBF23 /* ComplicationController.swift */; };
 		9590155927F8B397002BBF23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9590155827F8B397002BBF23 /* Assets.xcassets */; };
 		9590155C27F8B397002BBF23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9590155B27F8B397002BBF23 /* Preview Assets.xcassets */; };
+		9590156D27F8BD70002BBF23 /* CountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9590156C27F8BD70002BBF23 /* CountView.swift */; };
+		9590156F27FA77CF002BBF23 /* PagerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9590156E27FA77CF002BBF23 /* PagerManager.swift */; };
+		9590157127FA79B2002BBF23 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9590157027FA79B2002BBF23 /* StartView.swift */; };
+		9590157327FA7BE7002BBF23 /* CaruselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9590157227FA7BE7002BBF23 /* CaruselView.swift */; };
+		9590157527FA86D8002BBF23 /* CircleLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9590157427FA86D8002BBF23 /* CircleLength.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +80,11 @@
 		9590155B27F8B397002BBF23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9590155D27F8B397002BBF23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9590155E27F8B397002BBF23 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		9590156C27F8BD70002BBF23 /* CountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountView.swift; sourceTree = "<group>"; };
+		9590156E27FA77CF002BBF23 /* PagerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerManager.swift; sourceTree = "<group>"; };
+		9590157027FA79B2002BBF23 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		9590157227FA7BE7002BBF23 /* CaruselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaruselView.swift; sourceTree = "<group>"; };
+		9590157427FA86D8002BBF23 /* CircleLength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLength.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +129,12 @@
 			isa = PBXGroup;
 			children = (
 				9590154E27F8B397002BBF23 /* RunCirclesApp.swift */,
+				9590156E27FA77CF002BBF23 /* PagerManager.swift */,
 				9590155027F8B397002BBF23 /* ContentView.swift */,
+				9590157227FA7BE7002BBF23 /* CaruselView.swift */,
+				9590157427FA86D8002BBF23 /* CircleLength.swift */,
+				9590157027FA79B2002BBF23 /* StartView.swift */,
+				9590156C27F8BD70002BBF23 /* CountView.swift */,
 				9590155227F8B397002BBF23 /* NotificationController.swift */,
 				9590155427F8B397002BBF23 /* NotificationView.swift */,
 				9590155627F8B397002BBF23 /* ComplicationController.swift */,
@@ -267,10 +282,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				9590155327F8B397002BBF23 /* NotificationController.swift in Sources */,
+				9590157327FA7BE7002BBF23 /* CaruselView.swift in Sources */,
 				9590155127F8B397002BBF23 /* ContentView.swift in Sources */,
+				9590156F27FA77CF002BBF23 /* PagerManager.swift in Sources */,
+				9590157127FA79B2002BBF23 /* StartView.swift in Sources */,
+				9590156D27F8BD70002BBF23 /* CountView.swift in Sources */,
 				9590155727F8B397002BBF23 /* ComplicationController.swift in Sources */,
 				9590154F27F8B397002BBF23 /* RunCirclesApp.swift in Sources */,
 				9590155527F8B397002BBF23 /* NotificationView.swift in Sources */,
+				9590157527FA86D8002BBF23 /* CircleLength.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
